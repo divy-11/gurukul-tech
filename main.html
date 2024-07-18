@@ -5,6 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                borderRadius: {
+                    'none': '0',
+                    'sm': '0.125rem',
+                    DEFAULT: '0.25rem',
+                    DEFAULT: '4px',
+                    'md': '0.375rem',
+                    'lg': '0.5rem',
+                    'full': '9999px',
+                    'large': '12px',
+                    'xl': '14px',
+                    '4xl': '30px'
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -21,7 +39,7 @@
                 </div>
             </div>
             <div class="p-32 pr-0">
-                <div class="inline-block bg-blue-950 text-white p-8 text-lg rounded-l-lg">
+                <div class="inline-block bg-blue-950 text-white p-8 text-lg rounded-l-4xl">
                     Our expert team transforms your ideas into exceptional final products, ensuring your unique needs
                     are
                     met.
